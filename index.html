@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Baju WA Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container">
+           <div class="logo"><h1>WA Collection Store</h1></div> 
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Baju Fashion Terbaru & Trendy</h2>
+            <p>Tampil stylish dengan koleksi baju terbaru dari kami.</p>
+            <a href="#products" class="btn">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Koleksi Kami</h2>
+            <div class="product-cards">
+                <div class="card">
+                    <img src="baju-merah.webp" alt="Baju 1">
+                    <h3>Baju Casual Merah</h3>
+                    <p>Rp150.000</p>
+                    <button class="btn-buy">Beli</button>
+                </div>
+                <div class="card">
+                    <img src="baju-putih.webp" alt="Baju 2">
+                    <h3>Baju Formal Putih</h3>
+                    <p>Rp200.000</p>
+                    <button class="btn-buy">Beli</button>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/250x300.png?text=Baju+3" alt="Baju 3">
+                    <h3>Baju Hoodie Hitam</h3>
+                    <p>Rp180.000</p>
+                    <button class="btn-buy">Beli</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Omick Store menyediakan baju berkualitas dengan desain trendy, nyaman dipakai, dan harga terjangkau.
+                Belanja mudah, aman, dan cepat!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <form>
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Pesan / Pertanyaan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Omick Store. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JS for Buy Button -->
+    <script>
+        const buyButtons = document.querySelectorAll('.btn-buy');
+        buyButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                alert('Produk ditambahkan ke keranjang! (Demo)');
+            });
+        });
+    </script>
+</body>
+
+</html>
