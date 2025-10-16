@@ -6,3 +6,5 @@ function uldanli() {
         })
         .catch(error => console.error('Gagal memuat navbar:', error));
 }
+
+document.addEventListener("DOMContentLoaded", uldanli);
