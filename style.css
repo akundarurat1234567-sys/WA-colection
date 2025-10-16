@@ -27,6 +27,26 @@ header .container {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.logo img {
+    height: 4rem;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 header .logo {
     font-size: 10px;
     font-weight: 700;
@@ -93,6 +113,13 @@ header nav ul li a {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.product-cards img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .card {

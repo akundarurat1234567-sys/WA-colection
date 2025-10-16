@@ -6,24 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toko Baju WA Collection</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="nav.js"></script>
 </head>
 
 <body>
-    <!-- Header / Navbar -->
-    <header>
-        <div class="container">
-           <div class="logo"><h1>WA Collection Store</h1></div> 
-            <nav>
-                <ul>
-                    <li><a href="#home">Beranda</a></li>
-                    <li><a href="#products">Produk</a></li>
-                    <li><a href="#about">Tentang</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <script>uldanli()</script>
+    <div id="navbar"></div>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -52,7 +42,7 @@
                     <button class="btn-buy">Beli</button>
                 </div>
                 <div class="card">
-                    <img src="https://via.placeholder.com/250x300.png?text=Baju+3" alt="Baju 3">
+                    <img src="baju-hitam.webp" alt="Baju 3">
                     <h3>Baju Hoodie Hitam</h3>
                     <p>Rp180.000</p>
                     <button class="btn-buy">Beli</button>
@@ -65,8 +55,7 @@
     <section id="about" class="about">
         <div class="container">
             <h2>Tentang Kami</h2>
-            <p>Omick Store menyediakan baju berkualitas dengan desain trendy, nyaman dipakai, dan harga terjangkau.
-                Belanja mudah, aman, dan cepat!</p>
+            <p>WA Collection Menyediakan Berbagai Baju !</p>
         </div>
     </section>
 
@@ -91,14 +80,7 @@
     </footer>
 
     <!-- Optional JS for Buy Button -->
-    <script>
-        const buyButtons = document.querySelectorAll('.btn-buy');
-        buyButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                alert('Produk ditambahkan ke keranjang! (Demo)');
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
